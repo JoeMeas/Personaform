@@ -8,11 +8,11 @@ h1 {
 }
 
 #header {
-	margin: 0 0 0 0;
 	width: 100%;
 	height: 300px;
 	background-color: #7ccaac;
 	text-align: center;
+	padding: 70px;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 .createown {
 	float: left;
-	padding: 20px;
+	padding: 30px;
 } 
 
 #main_content {
@@ -30,7 +30,7 @@ body {
 
 #user_generated_personas {
 	width: 32%;
-	margin-left: 0;
+	margin-left: 10px;
 }
 
 #create_your_own {
@@ -48,12 +48,7 @@ h1 {
 }
 
 #footer {
-	height: 50px;
-	
 }
-
-
-
 
 
 
@@ -70,12 +65,9 @@ h1 {
 	width: 32%;
 }
 
-#create_your_own {
-	width: 64%;
-}
-
 #user_generated_personas, #create_your_own  {
 	float: left;
+	padding: 30px;
 
 }
 
@@ -84,10 +76,20 @@ h1, h2, .upg {
 }
 
 .image {
-	width: 50%;
+	width: 150px;
+	height: 150px;
+	border: solid black 2px;
 	float: left;
-	text-align: center;
+	margin: 10px;
 }
 
+#images {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.age {
+	width: 50px;
+}
 
