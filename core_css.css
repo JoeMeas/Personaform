@@ -12,7 +12,7 @@ h1 {
 	height: 300px;
 	background-color: #7ccaac;
 	text-align: center;
-	padding: 70px;
+	padding-top: 100px;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
 
 #user_generated_personas {
 	width: 32%;
-	margin-left: 10px;
+	background-color: #e8e8e8;
 }
 
 #create_your_own {
@@ -47,7 +47,9 @@ h1 {
 	text-align: center;
 }
 
-#footer {
+h2 {
+	color: #414141;
+	font-family: myFont;
 }
 
 
@@ -78,9 +80,9 @@ h1, h2, .upg {
 .image {
 	width: 150px;
 	height: 150px;
-	border: solid black 2px;
 	float: left;
 	margin: 10px;
+	background-color: white;
 }
 
 #images {
@@ -89,12 +91,12 @@ h1, h2, .upg {
 	margin-right: auto;
 }
 
-
-.age {
-	width: 50px;
+#footer {
+	background-color: #414141;
+	height: 150px;
+	margin-bottom: 0px;
+	clear: both;
 }
-
-
 
 
 /* #### bootstrap Form #### */
@@ -186,4 +188,3 @@ h1, h2, .upg {
     background-color: #EBEBEB;
     border-color: #ADADAD;
 }
-
