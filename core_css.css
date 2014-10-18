@@ -1,0 +1,27 @@
+#main_content, #user_generated_personas,  #create_your_own {
+	border: 3px solid black;
+} 
+
+#main_content {
+	overflow: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#user_generated_personas {
+	width: 32%;
+}
+
+#create_your_own {
+	width: 64%;
+}
+
+#user_generated_personas, #create_your_own  {
+	float: right;
+
+}
+
+h1 {
+	text-align: center;
+}
