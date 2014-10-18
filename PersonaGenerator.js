@@ -31,7 +31,7 @@
 	
 	//Make query to Facebook for JSON data with set fields
 	function jsonQuery(){
-		new Ajax.Request(url, 
+		new Ajax.Request("https://graph.facebook.com/search?q=QUERY&type=OBJECT_TYPE", 
 			{
 				method: "GET:,
 				onSucesss: ajaxSuccess,
