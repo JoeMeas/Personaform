@@ -4,7 +4,7 @@
 		FB.init({appId : '793098777421131', xfbml : true, version : 'v2.1'});
 				//http://students.washington.edu/dsa4/personafy.html
 		FB.getLoginStatus(function(response){
-			FB.ui({method: 'share', href: 'http://localhost.com/'}, function(response){});
+			FB.ui({method: 'share', href: 'http://students.washington.edu/dsa4/personafy.html'}, function(response){});
 			if(response.status === 'connected'){
 				FB.api('me?fields=likes, location', function (response) {
 					if (response && !response.error) {
