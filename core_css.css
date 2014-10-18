@@ -181,7 +181,15 @@ h1, h2, .upg {
     padding: 5px 0px 0px 5px;
     width: 70%;
 }
+
+button {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .bootstrap-frm .button {
+	text-align: center;
     background: #FFF;
     border: 1px solid #CCC;
     padding: 10px 25px 10px 25px;
