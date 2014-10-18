@@ -1,12 +1,72 @@
-#main_content, #user_generated_personas,  #create_your_own {
-	border: 3px solid black;
+@font-face {
+	font-family: myFont;
+	src: url('bariol-regular.ttf') format('truetype');
+}
+
+h1 {
+	font-family: myFont;
+}
+
+#header {
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 300px;
+	background-color: #7ccaac;
+	text-align: center;
+
+}
+
+body {
+	margin: 0 0 0 0;
+}
+.section {
+	float: left;
 } 
 
 #main_content {
 	overflow: none;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
+}
+
+#user_generated_personas {
+	width: 32%;
+	margin-left: 0;
+}
+
+#create_your_own {
+	width: 64%;
+	margin-right: 0;
+	floa
+}
+
+#user_generated_personas, #create_your_own  {
+	float: left;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+#footer {
+	height: ;
+}
+
+
+
+
+
+
+* {
+	margin: none;
+	font-family: sans-serif;
+}
+
+#main_content, #user_generated_personas,  #create_your_own {
+	border: 1px solid black;
+} 
+
+#main_content {
+	overflow: none;
 }
 
 #user_generated_personas {
@@ -18,10 +78,18 @@
 }
 
 #user_generated_personas, #create_your_own  {
-	float: right;
+	float: left;
 
 }
 
-h1 {
+h1, h2, .upg {
 	text-align: center;
 }
+
+.image {
+	width: 50%;
+	float: left;
+}
+
+
+

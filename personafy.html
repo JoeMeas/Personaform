@@ -1,21 +1,123 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="core_css.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
   </head>
+
   <body>
     <script src="http://code.jquery.com/jquery.js"></script>
+   
     <div id="main_content">
-    	
-    	<div id="header">
-    		<h1>PERSONAFY</h1>
-    	</div>
-    	<div id="user_generated_personas">
-    	</div>
-    	<div id="create_your_own">
+      
+      <div id="header">
+        <img src="header.png" alt="title">
+      </div>
+      <div id="user_generated_personas">
+        <div id="ugp_header">
+          <h2>User Generated Personas</h2>
+        </div>
+        <div class="ugr_row"></div>
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+        <div class="ugr_row"></div>
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+        <div class="ugr_row">
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+          <div class="image">
+            <img class="ugp" src="images/ugp_generic.png">
+          </div>
+        </div>
+      </div>
+
     	</div>
 
+      <div class="section">
+      <form>
+        
+          Age range:
+          <input type="text" name="lowage" size="3" maxlength="2">
+          to
+          <input type="text" name="highage" size="3" maxlength="2">
+          </br>
+
+          Location:
+          <select>
+              <option value="AL">AL</option>
+              <option value="AK">AK</option>
+              <option>AR</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>IA</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>ME</option>
+              <option>MD</option>
+              <option>MA</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MS</option>
+              <option>MO</option>
+              <option>MT</option>
+              <option>NE</option>
+              <option>NV</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NY</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VT</option>
+              <option>VA</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WY</option>
+          </select>
+          </br>
+
+          Interests:
+          <input type="text" size="20">
+        </br>
+          <button type="button" class="btn btn-default btn-sm">Personafy</button>
+
+    </form>
+    </div>
+
+    <div id="footer">
+      
     </div>
   </body>
 </html>
