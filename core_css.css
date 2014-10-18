@@ -52,8 +52,6 @@ h2 {
 	font-family: myFont;
 }
 
-
-
 * {
 	margin: none;
 	font-family: sans-serif;
@@ -170,6 +168,10 @@ h1, h2, .upg {
     width: 70%;
     height: 35px;
     line-height:15px;
+}
+
+.bootstrap-frm #agelength {
+	width: 50px;
 }
 .bootstrap-frm textarea{
     height:100px;
