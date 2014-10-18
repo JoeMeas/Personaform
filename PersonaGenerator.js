@@ -2,17 +2,20 @@
 	//Load  Facebook API
 	window.fbAsyncInit = function() {
 		FB.init({appId : '793098777421131', xfbml : true, version : 'v2.1'});
-				
+				//http://students.washington.edu/dsa4/personafy.html
 		FB.getLoginStatus(function(response){
-			FB.ui({method: 'share', href: 'http://students.washington.edu/dsa4//personify.html'}, function(response){});
+			FB.ui({method: 'share', href: 'http://localhost.com/'}, function(response){});
 			if(response.status === 'connected'){
-				FB.api('me/friends', function (response) {
+				FB.api('me?fields=likes, location', function (response) {
 					if (response && !response.error) {
-						console.log(response);
-						var dataDiv = document.getElementById('data');
-						var data = document.createElement('p');
-						data.innerHTML = response['data'].id;
-						dataDiv.appendChild(data);
+						console.log(response['likes']);
+						var likes = response['programming', 'requirements analysis', 'boating', 'coming home after a long day at work', 'cooking']
+						return likes;
+						//var dataDiv = document.getElementById('data');
+						//var data = document.createElement('p');
+						//data.innerHTML = response['location'].name;
+						//dataDiv.appendChild(data);
+						//$.post('http://localhost/personaform/personaStorage.php', {data: response});
 					}else{
 						FB.login();
 					}
