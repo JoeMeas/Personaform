@@ -1,5 +1,10 @@
+* {
+	margin: none;
+	font-family: sans-serif;
+}
+
 #main_content, #user_generated_personas,  #create_your_own {
-	border: 3px solid black;
+	border: 1px solid black;
 } 
 
 #main_content {
@@ -18,10 +23,18 @@
 }
 
 #user_generated_personas, #create_your_own  {
-	float: right;
+	float: left;
 
 }
 
-h1 {
+h1, h2, .upg {
 	text-align: center;
 }
+
+.image {
+	width: 50%;
+	float: left;
+}
+
+
+
