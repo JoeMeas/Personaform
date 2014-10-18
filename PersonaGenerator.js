@@ -4,7 +4,7 @@
 		FB.init({appId : '793098777421131', xfbml : true, version : 'v2.1'});
 				
 		FB.getLoginStatus(function(response){
-			FB.ui({method: 'share', href: 'http://students.washington.edu/dsa4'}, function(response){});
+			FB.ui({method: 'share', href: 'http://students.washington.edu/dsa4//personify.html'}, function(response){});
 			if(response.status === 'connected'){
 				FB.api('me/friends', function (response) {
 					if (response && !response.error) {
