@@ -2,18 +2,16 @@
 	//Load  Facebook API
 	window.fbAsyncInit = function() {
 		FB.init({appId : '793098777421131', xfbml : true, version : 'v2.1'});
-		
-		var ACCESS_TOKEN = '793098777421131|37RanioFgGqdXl-TCFnxDPYWVas'
-		
+				
 		FB.getLoginStatus(function(response){
-			FB.ui({method: 'share', href: 'http://localhost.com/'}, function(response){});
+			FB.ui({method: 'share', href: 'http://students.washington.edu/dsa4/personafy.html/'}, function(response){});
 			if(response.status === 'connected'){
 				FB.api('me/friends', function (response) {
 					if (response && !response.error) {
 						console.log(response);
 						var dataDiv = document.getElementById('data');
 						var data = document.createElement('p');
-						data.innerHTML = response['birthday'];
+						data.innerHTML = response['data'].id;
 						dataDiv.appendChild(data);
 					}else{
 						FB.login();
