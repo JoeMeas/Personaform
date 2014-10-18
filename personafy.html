@@ -59,23 +59,26 @@
 
 		<div class="createown">
 			<div id="about">
-				<h1> About Personafy</h1>
-				<p>Takes in user input from FaceBook to create a persona representing</br>real human beings. Enter in your target user characteristics to</br>explore the possibilities.</p>
+				<h2>About Personafy</h2>
+				<p>
+					Depending on the target characteristics entered in, Personafy </br>pulls in data from Facebook to create unique personas used</br> for research and development.
+				</p>
 			</div>
 
 			<form class="bootstrap-frm">
 				<h1>Create Your Own</h1>
 				</br>
-				<label> Age range:
-					<input id ="agelength" type="text" name="lowage" maxlength="2" placeholder="0">
+				<label class="none"> Age range:
+					<input id ="agelength" type="number" name="lowage" minvalue="18" maxvalue="100" placeholder="18">
 					to
-					<input id ="agelength"type="text" name="highage" maxlength="2" placeholder="100">
-					</br>
+					<input id ="agelength"type="number" name="highage" maxvalue="100" minvalue="18" placeholder="100">
 				</label>			
-				<label> Gender:
-					<input type="radio" name="gender" value="f">Female
-					<input type="radio" name="gender" value="m">Male
+				</br>
+				<label class="none"=> Gender:
+					<input class="none" type="radio" name="gender" value="f">Female
+					<input class="none" type="radio" name="gender" value="m">Male
 				</label>
+				</br>
 					<span>Location:</span>
 					<select name="state">
 						<option value="" disabled="disabled" selected="selected">Please select your state</option>
@@ -156,7 +159,7 @@
 								</div>
 								<div class="modal-body">
 									<h4>
-									[Bryce] is a [gender] who is currently [age] years old and lives in [location]. [Her/His] interests include [interest], [interest], and [interest].</h4>
+									<span id="name"></span> is a <span id=""></span> who is currently [age] years old and lives in [location]. [Her/His] interests include [interest], [interest], and [interest].</h4>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
