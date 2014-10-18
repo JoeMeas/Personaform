@@ -8,6 +8,7 @@
 		xfbml      : true,
 		version    : 'v2.1'
 		status     : true
+		alert("taco poop");
 		});
 	};
 
@@ -44,7 +45,6 @@
 	//On successful JSON pull, do THINGS
 	function ajaxSucess(ajax){
 		var data = JSON.parse(ajax.responseText);
-		alert("taco poop");
 	}
 
 	
