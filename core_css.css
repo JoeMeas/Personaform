@@ -3,7 +3,7 @@
 	src: url('bariol-regular.ttf') format('truetype');
 }
 
-h1 {
+h1, #footer {
 	font-family: myFont;
 }
 
@@ -19,9 +19,15 @@ body {
 	margin: 0 0 0 0;
 }
 
+#about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .createown {
 	float: left;
 	padding: 30px;
+    margin-left: 8%;
 } 
 
 #main_content {
@@ -62,7 +68,7 @@ h2 {
 }
 
 #user_generated_personas {
-	width: 32%;
+	width: 35%;
 }
 
 #user_generated_personas, #create_your_own  {
@@ -92,19 +98,18 @@ h1, h2, .upg {
 #footer {
 	background-color: #414141;
 	height: 150px;
-	margin-bottom: 0px;
 	clear: both;
+    padding: 20px;
+    color: white;
 }
 
-/*.container {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-*/
+
+
+
 /* #### bootstrap Form #### */
-.bootstrap-frm {
-    margin-left:20%;
+.bootstrap-frm{
+    margin-left:auto;
+    margin-right:auto;
     width: 500px;
     background: #FFF;
     padding: 20px 30px 20px 30px;
