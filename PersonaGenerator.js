@@ -44,6 +44,7 @@
 	//On successful JSON pull, do THINGS
 	function ajaxSucess(ajax){
 		var data = JSON.parse(ajax.responseText);
+		alert("taco poop");
 	}
 
 	
